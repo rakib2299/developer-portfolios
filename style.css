@@ -6,10 +6,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-        /* Header section */
+
+                          /* Header section */
 
 h1 {
-    font-size: 45px;
+    font-size: 42px;
     font-weight: 600;
 }
 h4 {
@@ -41,8 +42,8 @@ h4 {
     display: inline-block;
     margin-top: 22px;
 }
-.half-width p {
-    font-size: 18px;
+ p {
+    font-size: 17px;
     line-height: 1.4;
     color: rgb(71, 69, 69);
     
@@ -53,13 +54,53 @@ h4 {
 }
 
 
-        /* Dream Area */
+      
+
+                    /* Dream Area */
 h2 {
-    font-size: 38px;
+    font-size: 35px;
     font-weight: 600;
 }
 #dream-bg {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right bottom;
+}
+
+      
+
+                /* Experiences Area */
+.box-item {
+    width: 40%;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+h3 {
+    color: orange;
+}
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+#slice1 {
+    border-left: 6px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+#slice2 {
+    border-left: 6px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+     
+
+                /* Footer Area */
+footer {
+    margin-top: 100px;
+    text-align: center;
 }
